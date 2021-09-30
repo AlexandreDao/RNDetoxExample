@@ -5,7 +5,8 @@
   "apps": {
     "ios": {
       "type": "ios.app",
-      "binaryPath": "SPECIFY_PATH_TO_YOUR_APP_BINARY"
+      "binaryPath": "./ios/Build/Products/Release-iphonesimulator/DetoxExample.app",
+      "build": "xcodebuild -workspace ios/DetoxExample.xcworkspace -configuration Release -scheme DetoxExample -destination id=1CBD56EA-5CF2-4F6F-86FD-AFCF7AAD69D9 -derivedDataPath ./ios"
     },
     "android": {
       "type": "android.apk",
