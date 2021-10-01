@@ -20,6 +20,8 @@ npm run e2e:build-android
 
 - ### IOS
 
+Create an ios simulator named `iPhone 12`
+
 ```
 brew tap wix/brew
 brew install applesimutils
